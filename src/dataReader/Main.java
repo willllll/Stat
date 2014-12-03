@@ -9,7 +9,6 @@ import javax.swing.JFrame;
 import bus.uigen.ObjectEditor;
 import ui.GraphBrowser;
 import ui.ListBrowser;
-import ui.StatBrowser;
 import ui.TabPanel;
 import model.UserModel;
 
