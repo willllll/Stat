@@ -12,7 +12,7 @@ import dataReader.DataReader;
 
 public class UserModel {
 	private final String BASE_PATH="/Users/ziyouw/Desktop/data/";
-	
+	private FriendListModel allFriends;
 	private HashMap<String,FriendListModel> step1, step2, recommendation, step3;
 	private String name,folderPath;
 	private HashMap<String, ArrayList<String>> relationship;
@@ -20,6 +20,7 @@ public class UserModel {
 	
 	public UserModel(String name) throws FileNotFoundException, ParseException{
 		this.name = name;
+		allFriends = new FriendListModel("All Friends");
 		folderPath = DataReader.findFolder(name, BASE_PATH);
 		relationship = new HashMap<String, ArrayList<String>>();
 		recommendation = new HashMap<String,FriendListModel>();
@@ -32,6 +33,33 @@ public class UserModel {
 		step3Stat = new UserStatisticsModel(name);
 		
 		loadAllData();
+	}
+	
+	public HashMap<String, ListStatisticsModel> getListStatistics(int step){
+		if(step==1){
+			return step1Stat.getListStatistics();
+		}else if(step==2){
+			return step2Stat.getListStatistics();
+		}else if(step==3){
+			return step3Stat.getListStatistics();
+		}else{
+			return null;
+		}
+	}
+	public String getStatistics(int step){
+		if(step==1){
+			return step1Stat.getStatistics();
+		}else if(step==2){
+			return step2Stat.getStatistics();
+		}else if(step==3){
+			return step3Stat.getStatistics();
+		}else{
+			return "";
+		}
+	}
+	
+	public FriendListModel getAllFriends(){
+		return allFriends;
 	}
 	
 	public HashMap<String,FriendListModel> getLists(int step){
@@ -55,7 +83,22 @@ public class UserModel {
 		//step2Stat.setExistingList(recommendation.keySet().size());
 		step1 =step1Stat.getLists();
 		step3 =step3Stat.getLists();
-		
+		loadAllFriends();
+	}
+	
+	private void loadAllFriends() throws FileNotFoundException{
+		String path = folderPath+"/friendinfo.txt";
+		Scanner scan =new Scanner(new File(path));
+		while(scan.hasNextLine()){
+			String line = scan.nextLine();
+			if(line.isEmpty()){
+				if(!scan.hasNextLine()){
+					break;
+				}
+				allFriends.addMember(scan.nextLine());
+			}
+		}
+		scan.close();
 	}
 	
 	private void loadLogFile(String path, UserStatisticsModel Stat) throws FileNotFoundException, ParseException{

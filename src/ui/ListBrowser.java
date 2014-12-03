@@ -5,14 +5,10 @@ import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-
 import javax.swing.JTextArea;
 
-import main.FriendList;
-import main.ListStat;
-import main.User;
 import model.FriendListModel;
+import model.ListStatisticsModel;
 import model.UserModel;
 import util.annotations.Column;
 import util.annotations.ComponentHeight;
@@ -25,30 +21,30 @@ import util.models.PropertyListenerRegistrar;
 
 public class ListBrowser implements PropertyChangeListener, PropertyListenerRegistrar{
 	int type;
+	UserModel user;
 	DynamicEnum<String> topLevel = new ADynamicEnum<String>();
 	DynamicEnum<String> secondLevel = new ADynamicEnum<String>();
-	Map<String, FriendList> groupToMembers = new HashMap<String, FriendList>();
+	HashMap<String,FriendListModel> groupToMembers;
+	HashMap<String, ListStatisticsModel> listStatTable;
+
 	String listStat;
-	HashMap<String, ListStat> table;
 	
 	PropertyChangeSupport propertyChangeSupport = new PropertyChangeSupport(this);
 	
-	public ListBrowser(UserModel user, HashMap<String, ListStat> table, int type){
+	public ListBrowser(UserModel user, int type){
+		this.user = user;
 		this.type = type;
-		this.table = table;
+		listStatTable = user.getListStatistics(type);
+		groupToMembers =user.getLists(type);
+		groupToMembers.put("All Friends",user.getAllFriends());
 		
-		HashMap<String,FriendListModel> temp =user.getLists(type);
-		
-		for(FriendList fl :user.getLists(type)){
-			String name = fl.getName();
-			groupToMembers.put(name, fl);
-			topLevel.addChoice(name);
+		for(String s :groupToMembers.keySet()){
+			topLevel.addChoice(s);
 		}
-		topLevel.setValue("Clique: 1");
-		secondLevel.setChoices(groupToMembers.get("Clique: 1").getNameList());
+		topLevel.setValue("All Friends");
+		secondLevel.setChoices(groupToMembers.get("All Friends").getMemberList());
 		topLevel.addPropertyChangeListener(this);
-		listStat = table.get("Clique: 1").getStat();
-		
+		listStat = user.getStatistics(type);
 	}
 	//@PreferredWidgetClass(JRadioButton.class)
 	@Row(0)
@@ -72,8 +68,8 @@ public class ListBrowser implements PropertyChangeListener, PropertyListenerRegi
 	}
 	@Row(1)
 	@PreferredWidgetClass(JTextArea.class)
-	@ComponentHeight(100)
-	@ComponentWidth(300)
+	@ComponentHeight(200)
+	@ComponentWidth(400)
 	public String getStat(){
 		return listStat;
 	}
@@ -87,11 +83,15 @@ public class ListBrowser implements PropertyChangeListener, PropertyListenerRegi
 	public void propertyChange(PropertyChangeEvent evt) {
 		if (evt.getSource() == topLevel) {
 			String newValue = (String) evt.getNewValue();
-			List<String> newChoices = groupToMembers.get(newValue).getNameList();
+			List<String> newChoices = groupToMembers.get(newValue).getMemberList();
 			secondLevel.setChoices(newChoices);
 			propertyChangeSupport.firePropertyChange("topLevel", " ", newValue);
 			
-			setStat(table.get(newValue).getStat());
+			if(newValue.equals("All Friends")){
+				setStat(user.getStatistics(type));
+			}else{
+				setStat(listStatTable.get(newValue).getStatistics());
+			}
 		}	
 	}
 	@Override

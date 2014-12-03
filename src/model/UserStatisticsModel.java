@@ -28,6 +28,10 @@ public class UserStatisticsModel {
 		delete=0;
 		existingList=0;
 	}
+	
+	public HashMap<String, ListStatisticsModel> getListStatistics(){
+		return listStats;
+	}
 	public HashMap<String, FriendListModel> getLists(){
 		HashMap<String, FriendListModel> temp = new HashMap<String, FriendListModel>();
 		for(String s:creation.keySet()){
@@ -44,7 +48,7 @@ public class UserStatisticsModel {
 	
 	public String getStatistics(){
 		int listLeft= creation.keySet().size()+existingList-discard.size();
-		String s ="Total time: "+timeStep/1000 +"\n"+
+		String s ="Total time: "+timeStep/1000 +"s\n"+
 				  "Total clicks: " + click + "\n" +
 				  "Total additions: " + add + "\n"+
 				  "Total deletions: " + delete +"\n"+
@@ -52,8 +56,10 @@ public class UserStatisticsModel {
 				  "Total number of lists discarded: " + discard.size() +"\n"+
 				  "Total number of remining lists: " + listLeft;
 		if(listLeft!=0){
-			s=s+"\n"+"Average editing time per list: "+ timeStep/listLeft+"\n"+
+			s=s+"\n"+"Average editing time per list: "+ (timeStep/1000)/listLeft+"s\n"+
+					"Average number of clciks per list: "+ (double)click/listLeft+".\n"+
 			"Average number of additions per list: "+ (double)add/listLeft+".\n"+
+			
 					"Average number of deletions per list: " +(double)delete/listLeft;
 		}
 		return s;

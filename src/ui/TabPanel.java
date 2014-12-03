@@ -37,7 +37,5 @@ public class TabPanel extends JPanel {
 	public JPanel getPanel2(){
 		return panel2;
 	}
-	public JPanel getPanel3(){
-		return panel3;
-	}
+	
 }

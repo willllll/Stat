@@ -28,7 +28,7 @@ public class Main {
 		
 		HashMap<String, ListStat> table = user.getStat2().getTable();
 		
-		ListBrowser lb = new ListBrowser(user,table);
+		ListBrowser lb = new ListBrowser(user);
 		
 		lb.addPropertyChangeListener(gb);
 		
