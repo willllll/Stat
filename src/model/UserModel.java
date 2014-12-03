@@ -35,6 +35,14 @@ public class UserModel {
 		loadAllData();
 	}
 	
+	public String getId(){
+		return name;
+	}
+	
+	public HashMap<String, ArrayList<String>> getRelationship(){
+		return relationship;
+	}
+	
 	public HashMap<String, ListStatisticsModel> getListStatistics(int step){
 		if(step==1){
 			return step1Stat.getListStatistics();

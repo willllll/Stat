@@ -23,12 +23,16 @@ public class Main {
 		ListBrowser lb1 = new ListBrowser(um,1);
 		ListBrowser lb2 = new ListBrowser(um,2);
 		ListBrowser lb3 = new ListBrowser(um,3);
+		GraphBrowser gb = new GraphBrowser(um);
+		
+		lb1.addPropertyChangeListener(gb);
 		
 		JFrame frame=  new JFrame();
 		frame.setLayout(new BorderLayout());
 		
 		TabPanel tab =  new TabPanel();
-		frame.getContentPane().add(tab);
+		frame.getContentPane().add(tab,BorderLayout.NORTH);
+		frame.getContentPane().add(gb,BorderLayout.CENTER);
 		
 		ObjectEditor.editInMainContainer(lb1, tab.getPanel0());
 		ObjectEditor.editInMainContainer(lb2, tab.getPanel1());
