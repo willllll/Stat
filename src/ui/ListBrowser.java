@@ -35,7 +35,12 @@ public class ListBrowser implements PropertyChangeListener, PropertyListenerRegi
 		this.user = user;
 		this.type = type;
 		listStatTable = user.getListStatistics(type);
-		groupToMembers =user.getLists(type);
+		if(type==2){
+			groupToMembers =user.getRecommendation();
+		}else{
+			groupToMembers =user.getLists(type);
+		}
+		
 		groupToMembers.put("All Friends",user.getAllFriends());
 		
 		for(String s :groupToMembers.keySet()){
@@ -68,8 +73,8 @@ public class ListBrowser implements PropertyChangeListener, PropertyListenerRegi
 	}
 	@Row(1)
 	@PreferredWidgetClass(JTextArea.class)
-	@ComponentHeight(200)
-	@ComponentWidth(400)
+	@ComponentHeight(100)
+	@ComponentWidth(500)
 	public String getStat(){
 		return listStat;
 	}

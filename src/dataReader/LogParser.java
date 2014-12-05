@@ -29,7 +29,7 @@ public class LogParser {
 			for(int i=3;i<split.length;i++){
 				name+=split[i]+" ";
 			}
-			userStat.delete(name.substring(0,name.length()-1));
+			userStat.discard(name.substring(0,name.length()-1));
 		}else if(split[2].equals("Add")){
 			String name="";
 			for(int i=3;i<split.length;i++){

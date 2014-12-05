@@ -1,0 +1,28 @@
+Id:652062374813484
+Name:UNC Chapel Hill
+Id:585419604811095
+Name:The University of North Carolina at Chapel Hill
+Id:490404764312580
+Name:??????
+Id:472183622801361
+Name:Acquaintances
+Id:470823579604032
+Name:Zhixin High School
+Id:470823572937366
+Name:The University of North Carolina at Chapel Hill
+Id:466879663331757
+Name:Chapel Hill, North Carolina Area
+Id:451419871544403
+Name:The University of North Carolina at Chapel Hil
+Id:436884272997963
+Name:UNC
+Id:396141550405569
+Name:Family
+Id:389055281114196
+Name:Guangzhou, China Area
+Id:389055267780864
+Name:Zhixin High School
+Id:389055261114198
+Name:La Junta High School
+Id:389055257780865
+Name:Close Friends

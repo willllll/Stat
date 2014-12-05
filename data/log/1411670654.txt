@@ -1,0 +1,110 @@
+CAAD6YjYrzZAABAGKLzsh6hhaPlEhMG1MeMUCqCu4umC92u7JdLNf0ZCxCdvJOmvZBemmZAuVTJHq8uwbslpHOZB6Szqk0GD3kTqhcTWqCwW2NZBTDwUo4daBJy4Yrohgv8pHAUZAYrbswqN4UZA5n4TmZAihsgNZCiVnoS9PKYwr6vkiLFIZCaa2Pp7W25Os9vW5KUZD
+100008343420563
+true
+Checking100008343420563_1406401539
+Requests completed!
+Checking100008343420563_1406402993
+Requests completed!
+Checking100008343420563_1406403452
+Requests completed!
+Checking100008343420563_1408931788
+Requests completed!
+Checking100008343420563_1410399060
+Requests completed!
+Checking100008343420563_1411359434
+Requests completed!
+/afs/cs.unc.edu/home/bartel/fbfriendslist/data
+/afs/cs.unc.edu/home/bartel/fbfriendslist/data
+Hello Will
+Friendship post:Will Wu is now friends with Christina  Wang and Duo Donald Zhao.
+	Friendship start:Duo Donald Zhao
+	Friendship start:Christina  Wang
+Friendship post:Will Wu and Jake Bartel are now friends.
+	Friendship start:Jake Bartel
+Friendship post:Will Wu and Dora Ye Yuan are now friends.
+	Friendship start:Dora Ye Yuan
+Friendship post:Will Wu and Jeanie Zhao are now friends.
+	Friendship start:Jeanie Zhao
+Friendship post:Will Wu and Xiaoxi Xiong are now friends.
+	Friendship start:Xiaoxi Xiong
+Friendship post:Will Wu is now friends with Yidi Wu and 14 other people.
+	Friendship start:Joyce  Chen
+	Friendship start:Mengbing  Li
+	Friendship start:Luxi Tang
+	Friendship start:Jiahui Zheng
+	Friendship start:Jason Wang
+	Friendship start:Jacob Bartel
+	Friendship start:Damian Min Yang
+	Friendship start:Yinan Fang
+	Friendship start:Apollo Guan
+	Friendship start:Tianshu Ren
+	Friendship start:YeJoe  Luo
+	Friendship start:Henry Ji
+	Friendship start:Flora Feng
+	Friendship start:Ziyou Wu
+	Friendship start:Yidi Wu
+analyse feeds succeeded for 100008343420563
+21
+Friendship post:Jacob Bartel and Ziyou Wu are now friends.
+	Friendship start:Ziyou Wu
+analyse feeds succeeded for 2718074
+analyse feeds succeeded for 655946639
+analyse feeds succeeded for 739577240
+analyse feeds succeeded for 1643808390
+analyse feeds succeeded for 1831255187
+analyse feeds succeeded for 100000291832352
+Friendship post:Ziyou Wu is now friends with Will Wu and Jake Bartel.
+	Friendship start:Jake Bartel
+analyse feeds succeeded for 100000741846725
+Friendship post:Flora Feng and Dora Ye Yuan are now friends.
+	Friendship start:Dora Ye Yuan
+analyse feeds succeeded for 100001444351418
+analyse feeds succeeded for 100001500729894
+analyse feeds succeeded for 100001525510160
+analyse feeds succeeded for 100001981492993
+analyse feeds succeeded for 100002213994366
+analyse feeds succeeded for 100002615332479
+analyse feeds succeeded for 100002673270622
+analyse feeds succeeded for 100002824085251
+analyse feeds succeeded for 100002875864132
+analyse feeds succeeded for 100002969861194
+analyse feeds succeeded for 100003013990799
+analyse feeds succeeded for 100004199675163
+analyse feeds succeeded for 100004558176914
+Friendship post:Jake Bartel and Ziyou Wu are now friends.
+	Friendship start:Ziyou Wu
+analyse feeds succeeded for 100004642241103
+printEvents succceded!
+printFriendList succeeded!
+printGroup succeeded!
+Recommendation Process Starts at 1411670995383
+IO function is done.
+getId() is done
+
+
+Participant: 343420563
+~~~~~~~~~~~~~~~~~~~~~~~SET UP~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+created the UIDGraph
+UIDGraph is created
+ioHelp.fillNames() is done
+hybrid is created
+setIOHelp() is done
+setParticipantID() is done
+hybrid.findNetworksAndSubgroups() starts.
+
+----------------------------------------------
+Hybrid started!
+setSAndD(networkS, networkD) is done!
+findNetworks(cliques) is done!
+setSAndD(subgroupS, subgroupD) is done!
+findSubgroups(networks) is done!
+new HashSet<Set<V>>() is done!
+addAll(networks) is done!
+addAll(subgroups) is done!
+hybrid.findNetworksAndSubgroups() is done.
+
+----------------------------------------------
+printCliqueIDsToFile() is done
+Creating complete is done
+Recommendation Process Finishes at 1411670998788
+Recommendation process is done. Close printer (prin).

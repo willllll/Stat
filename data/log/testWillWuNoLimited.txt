@@ -1,0 +1,32 @@
+CAACEdEose0cBAESmVfZB8KJOaUFgbsl6Es4XaAawshKRvW3PkEoFnBAgOLgLnMgbbs7P635zZCi4Ae6qK1DhIEaXQwYpRZAw9kZBlr862U1FiimZCemD7MC9F1mwe3rqWYYIMFppZCaK7SLCqUc04Vofz2JqAWUTnn5JoaBlBPQDWUF5uAHHKUzmpAxZAS0oSwZD
+1379142542373847
+true
+/afs/cs.unc.edu/home/bartel/fbfriendslist/data
+/afs/cs.unc.edu/home/bartel/fbfriendslist/data
+Hello Will
+analyse feeds succeeded for 1379142542373847
+2
+analyse feeds succeeded for 2718074
+analyse feeds succeeded for 100000741846725
+printEvents succceded!
+printFriendList succeeded!
+printGroup succeeded!
+Recommendation Process Starts at 1400133828877
+IO function is done.
+getId() is done
+
+
+
+Participant: 542373847
+~~~~~~~~~~~~~~~~~~~~~~~SET UP~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+created the UIDGraph
+UIDGraph is created
+ioHelp.fillNames() is done
+hybrid is created
+setIOHelp() is done
+setParticipantID() is done
+groups is created
+printCliqueIDsToFile() is done
+Creating complete is done
+Recommendation Process Finishes at 1400133828988
+Recommendation process is done. Close printer (prin).

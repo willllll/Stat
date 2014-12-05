@@ -1,0 +1,14 @@
+Id:3118077090351
+Name:Chapel Hill, North Carolina Area
+Id:3116977902872
+Name:Jeju City Area
+Id:2726202173723
+Name:The University of North Carolina at Chapel Hill
+Id:2264624674574
+Name:UNC Chapel Hill
+Id:1821182508797
+Name:Acquaintances
+Id:1790885231384
+Name:Family
+Id:1790875391138
+Name:Close Friends

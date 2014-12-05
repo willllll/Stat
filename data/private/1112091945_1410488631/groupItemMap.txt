@@ -1,0 +1,62 @@
+Id:1453133881618609
+Name:Squadron 3 Fall 2014
+Description:null
+Id:294444994039295
+Name:Class of 2017 Cadets
+Description:null
+Id:386341908109383
+Name:AAS/SW Area III
+Description:null
+Id:21331462738
+Name:AFROTC Detachment 590 Alumni
+Description:For alumni, family and friends of the Tar Heel Air Force, UNC-Chapel Hill's AFROTC Detachment 590
+Id:1500972133461929
+Name:Charlie Flight Spring '14
+Description:null
+Id:195251552598
+Name:Carolina Textbook Trade
+Description:Write down what textbooks your trying to get rid of and what textbooks you need :)
+Id:669739959724387
+Name:Lost and Found UNC
+Description:This Group is for Lost and Found posts at UNC - Chapel Hill
+Id:513695398693014
+Name:Jesse J. Moorhead Squadron UNC AAS
+Description:null
+Id:2525392447
+Name:Overheard at UNC
+Description:There are ridiculous interactions around UNC all the time, and we've all been fortunate enough to be within hearing distance of one at some point or another. Share the wealth, post them here. No ads, promotions, plugs, inappropriate or irrelevant posts; they will be removed and the poster will also be temporarily removed. If you feel you've been improperly removed, please contact the administrators via message and we will be glad to hear you out.
+Id:348086221993730
+Name:Arnies of 2013
+Description:Det 590 AAS Cadidate Class 2013, Bravo & Whiskey
+Id:159091080957060
+Name:AAS Candidate Class of 2013
+Description:null
+Id:202037769825847
+Name:DET 590 Cadets
+Description:Official Facebook Group of AFROTC Detachment 590 Cadets
+
+http://afrotc.unc.edu/
+
+Rules for posting:
+- Must apply to at least 50% of cadets
+- Relevant to Det590, such as schedules, upcoming events, activities, motivation, cadet development etc. 
+- Please retroactively delete posts if they are no longer relevant (ex: events that have passed)
+- If your post does not fall in this criteria, do not post. If it is posted, you will be notified that it is being deleted. 
+Id:527437183972934
+Name:TCTW 2013
+Description:Hey TCTW 2013!  I just wanted to create a group so you all could easily communicate with one another.
+
+Please feel free to add people. I know I missed a few!
+Id:414639888583127
+Name:AP Gov 2012-13
+Description:null
+Id:199563593447534
+Name:Troop 787
+Description:null
+Id:19796098604
+Name:Northwest Paintball UK
+Description:Paintball community site for northwest UK will also try to cover any events north West teams are entering. If you have any questions about getting your own kit or where to play this is the place 
+Id:2245806174
+Name:SMART PARTS ION OWNERS
+Description:All of you guys who own ions can post up pics share facts or even trade/sell parts.
+Do whatever you want!

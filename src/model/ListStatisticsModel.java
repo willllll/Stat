@@ -5,12 +5,17 @@ public class ListStatisticsModel {
 	private int add;
 	private int delete;
 	private String name;
-	
+	private boolean isDiscard;
 	public ListStatisticsModel(String name){
+		isDiscard=false;
 		this.name=name;
 		totalPeople=0;
 		add=0;
 		delete=0;
+	}
+	
+	public void setDiscard(boolean is){
+		isDiscard=is;
 	}
 	
 	public String getName(){
@@ -21,6 +26,9 @@ public class ListStatisticsModel {
 		String s = "Total number of members: " + totalPeople + ".\n"+
 				   "Additions: " + add + ".\n"+
 				   "Deletions: " + delete + ".\n";
+		if(isDiscard){
+			s=s+"USER DISCARDED THIS LIST!";
+		}
 		return s;
 	}
 	//need to load the number of members for lists in step 2

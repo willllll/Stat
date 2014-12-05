@@ -1,0 +1,21 @@
+CAAD6YjYrzZAABAPj1JMy862cTiYzZCzAfBIQ15VvdaZAe6jre5hfpHU92kOs7L9BMUJPCxiZCBMfuJSub8b5NXBGDDg85P2ZBO8AZC3ei4X2pZC7M8VFFrC3bFlCTaQphJvFXNuENeHKP71Bo86Yd04gUCjyQ2q0I90lQ0gKpAq8GxWwQ3ZC6WGarjOKKZAVzPbcZD
+100004642241103
+true
+/afs/cs.unc.edu/home/bartel/fbfriendslist/data
+/afs/cs.unc.edu/home/bartel/fbfriendslist/data
+Hello Jake
+Friendship post:Jake Bartel and Ziyou Wu are now friends.
+	Friendship start:Ziyou Wu
+analyse feeds succeeded for 100004642241103
+1
+analyse feeds succeeded for 100000741846725
+printEvents succceded!
+printFriendList succeeded!
+printGroup succeeded!
+Recommendation Process Starts at 1399487118969
+IO function is done.
+getId() is done
+
+
+
+Participant: 642241103

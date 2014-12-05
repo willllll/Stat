@@ -1,0 +1,56 @@
+Id:521587894518871
+Name:HatCH UNC
+Description:UNC's hackerspace.
+Phone Number: 919-962-1727
+Id:694064707290301
+Name:Carolina Math Club
+Description:Welcome! We are the math club at UNC Chapel Hill. We'll be hosting talks (led by professors, grad students, and undergrads) and social events!
+Id:700772159967202
+Name:The Nerd Port
+Description:welcome to the nerd port home to the ONE FALL! AND BLINDSIDE PODCAST.  ALSO TO THE DRINK JOKE AND LETS PLAY CHANNEL and follow up all of this on YouTube and enjoy the conversation and fun.
+Id:323480967754737
+Name:UNC Chapel Hill Class of 2017 (Official Group)
+Description:Class of 2017, this is your official group! Use it to ask questions about classes, places to eat on Franklin, or anything else you want to talk about or ask! Welcome to the University of North Carolina.
+Id:175850789098403
+Name:The COUp Table
+Description:This is designed as a social outlet for members of COUp (and FTaGN). It is a place to talk about/comment on all the nerdy interests and functions as a general link dump. It also contains information about COUp meetings, events, and other important news. 
+
+For general information about COUp and the semester schedule, visit our webstie:
+http://coup.web.unc.edu/
+Id:495626353845697
+Name:Drink joke and lets play
+Description:WELCOME TO DRINK JOKE AND LETS PLAY FOR ALL THINGS WRESTLING, VIDEO GAMES AND REALLY ANY THING NERDY 
+
+Home of the ONE FALL! podcast,  the 8 BIT DEATH MATCH podcast (name is subject to change)  and are are lets play with FALSE FINISHES AND 2 OUT OF 3 FALLS.  and also if there any rants that i feel like doing will be going under the drink joke and lets play  tag.
+
+JOIN IN EVERY ONE IS WELCOME AND JUMP IN ON THE DISCUSSION.  AND JUST SIT BACK AND ENJOY! 
+Id:467785543299597
+Name:4455 OMG
+Description:null
+Id:626811220679887
+Name:4469 OMG
+Description:null
+Id:378400348938053
+Name:848
+Description:null
+Id:346424772147226
+Name:WTF8460
+Description:null
+Id:470421359670117
+Name:Northwest Guilford Rugby
+Description:null
+Id:53379151735
+Name:The Dan Korn Project
+Description:If your name is Dan Korn (or Daniel Korn, or some other variation thereof), then this is the group for you!
+Id:319396934804394
+Name:Northwest NHS 2012-2013
+Description:null
+Id:371483186199996
+Name:Troll Server Cat 5
+Description:null
+Id:294100353961796
+Name:THE CAMPING CORNER
+Description:ALL OF YOUR REVIEWS AND YOUR TOP 13 OF FUN TOPICS
+Id:163810116990034
+Name:Carp's 3rd Period English!
+Description:null

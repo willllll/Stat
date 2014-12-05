@@ -1,0 +1,12 @@
+Id:3159661726543
+Name:Northwest Guilford High School
+Id:1597625756620
+Name:Acquaintances
+Id:1528670472781
+Name:Family
+Id:1528670392779
+Name:Close Friends
+Id:1715292124_1_140105122708_2004
+Name:The University of North Carolina at Chapel Hill
+Id:1715292124_1_107812615908638_14002
+Name:Greensboro, North Carolina Area

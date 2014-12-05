@@ -1,0 +1,31 @@
+CAACEdEose0cBAFVc9WaShWbp60PO945cg03n5MUBrJpcNjZBKaxDNOS5seZAGqOy445Ped60baOesKYO7Lg9IVPbQvRZAU69txLU9nZCcQnSZAuZCzTTkghwoDOErMdm7jFwJNxfLuRIGMfelPjxPWhtv4ZAVrr0EBF7v77LTCqrjTn0yV2SqScGWLFnciQ4TYmAai7z9NTpwZDZD
+1379142542373847
+true
+/afs/cs.unc.edu/home/bartel/fbfriendslist/data
+/afs/cs.unc.edu/home/bartel/fbfriendslist/data
+Hello Will
+analyse feeds succeeded for 1379142542373847
+2
+analyse feeds succeeded for 2718074
+analyse feeds succeeded for 100000741846725
+printEvents succceded!
+printFriendList succeeded!
+printGroup succeeded!
+Recommendation Process Starts at 1400047439748
+IO function is done.
+getId() is done
+
+
+
+Participant: 542373847
+~~~~~~~~~~~~~~~~~~~~~~~SET UP~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+created the UIDGraph
+UIDGraph is created
+ioHelp.fillNames() is done
+hybrid is created
+setIOHelp() is done
+setParticipantID() is done
+groups is created
+
+printCliqueIDsToFile() is done
+Exception in recommendFriendList()

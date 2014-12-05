@@ -1,0 +1,22 @@
+Id:704564429578279
+Name:myList
+Id:686469211387801
+Name:List Name: 232
+Id:612537228781000
+Name:The University of North Carolina at Chapel Hill
+Id:461181247249933
+Name:IBM China
+Id:341488689219190
+Name:University of North Carolina at Chapel Hill
+Id:278275755540484
+Name:Family
+Id:278275752207151
+Name:Acquaintances
+Id:269465426421517
+Name:Beijing No. 101 High School
+Id:267243449977048
+Name:Friends
+Id:260607283973998
+Name:Close Friends
+Id:260444910656902
+Name:Chapel Hill, North Carolina Area

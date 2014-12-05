@@ -1,0 +1,20 @@
+Id:10152378831279863
+Name:UNC Computer Science
+Id:10151917389609863
+Name:Chapel Hill, North Carolina Area
+Id:10151863514134863
+Name:UNC-Chapel Hill ResNET
+Id:10150314911014863
+Name:Close Friends
+Id:10150368790244863
+Name:The University of North Carolina at Chapel Hill
+Id:10150317935264863
+Name:Acquaintances
+Id:10150314916324863
+Name:Ardrey Kell High School
+Id:10150314911034863
+Name:UNC Chapel Hill
+Id:10150314911024863
+Name:Family
+Id:10150185122084863
+Name:Blocked

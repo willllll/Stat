@@ -1,0 +1,18 @@
+Id:648698638521609
+Name:Washington, District of Columbia Area
+Id:451927251532083
+Name:Shanghai Foreign Language School
+Id:451926251532183
+Name:The University of North Carolina at Chapel Hill
+Id:414914765233332
+Name:Acquaintances
+Id:414914755233333
+Name:Family
+Id:414914748566667
+Name:The University of North Carolina at Chapel Hill
+Id:414914745233334
+Name:Chapel Hill, North Carolina Area
+Id:414914741900001
+Name:Shanghai Foreign Language School
+Id:414914738566668
+Name:Close Friends

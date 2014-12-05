@@ -1,0 +1,20 @@
+Id:515036448579899
+Name:The University of North Carolina at Chapel Hill
+Id:350439595039586
+Name:Chapel Hill, North Carolina Area
+Id:350439591706253
+Name:Changzhou Beijiao Middle School
+Id:180241282059419
+Name:The University of North Carolina at Chapel Hill
+Id:180241278726086
+Name:Family
+Id:164213523662195
+Name:University of North Carolina at Chapel Hill
+Id:164212950328919
+Name:Acquaintances
+Id:163566170393597
+Name:UNC Chapel Hill
+Id:163566167060264
+Name:Close Friends
+Id:163565680393646
+Name:Changzhou Area

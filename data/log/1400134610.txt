@@ -1,0 +1,77 @@
+CAAD6YjYrzZAABABW7URcgJHIJ3uypGy6G0QjrsAc6rEIvV5IdgJFeuvpB2UjKCvGPjS1btO9yZB54DtkVcHiyaoX7ZCkJS9qYpfMZBXLFkqmUwPzPIxBSQgTChrGdIubacZAbklqjtZAiHumxyxZARPjZAspsZBTHaK3pWN0xsjYJN5cwpzNyNq7GqLZAZBbTs7w0MZD
+100008343420563
+true
+/afs/cs.unc.edu/home/bartel/fbfriendslist/data
+/afs/cs.unc.edu/home/bartel/fbfriendslist/data
+Hello Will
+Friendship post:Will Wu and Xiaoxi Xiong are now friends.
+	Friendship start:Xiaoxi Xiong
+Friendship post:Will Wu is now friends with Yidi Wu and 14 other people.
+	Friendship start:Joyce  Chen
+	Friendship start:Mengbing  Li
+	Friendship start:Luxi Tang
+	Friendship start:Jiahui Zheng
+	Friendship start:Jason Wang
+	Friendship start:Jacob Bartel
+	Friendship start:Damian Min Yang
+	Friendship start:Yinan Fang
+	Friendship start:Apollo Guan
+	Friendship start:Tianshu Ren
+	Friendship start:YeJoe  Luo
+	Friendship start:Henry Ji
+	Friendship start:Flora Feng
+	Friendship start:Ziyou Wu
+	Friendship start:Yidi Wu
+analyse feeds succeeded for 100008343420563
+16
+Friendship post:Jacob Bartel and Ziyou Wu are now friends.
+	Friendship start:Ziyou Wu
+analyse feeds succeeded for 2718074
+analyse feeds succeeded for 655946639
+analyse feeds succeeded for 739577240
+analyse feeds succeeded for 100000291832352
+Friendship post:Ziyou Wu is now friends with Yidi Wu and Caa Unc.
+	Friendship start:Yidi Wu
+Friendship post:Ziyou Wu is now friends with Luman Ouyang and Luxi Tang.
+	Friendship start:Luxi Tang
+Friendship post:Ziyou Wu is now friends with Varro Wei and 3 other people.
+	Friendship start:Xiaoxi Xiong
+Friendship post:Ziyou Wu is now friends with Jiahui Zheng and Owen You.
+	Friendship start:Jiahui Zheng
+analyse feeds succeeded for 100000741846725
+analyse feeds succeeded for 100001444351418
+analyse feeds succeeded for 100001500729894
+analyse feeds succeeded for 100001525510160
+analyse feeds succeeded for 100002213994366
+analyse feeds succeeded for 100002615332479
+Friendship post:Henry Ji and Xiaoxi Xiong are now friends.
+	Friendship start:Xiaoxi Xiong
+Friendship post:Henry Ji is now friends with Rahul Ramkumar and Luxi Tang.
+	Friendship start:Luxi Tang
+Friendship post:Henry Ji and Joyce  Chen are now friends.
+	Friendship start:Joyce  Chen
+Friendship post:Henry Ji is now friends with Haiwei  Chen and Mengbing  Li.
+	Friendship start:Mengbing  Li
+analyse feeds succeeded for 100002673270622
+analyse feeds succeeded for 100002824085251
+analyse feeds succeeded for 100002875864132
+analyse feeds succeeded for 100002969861194
+analyse feeds succeeded for 100003013990799
+analyse feeds succeeded for 100004558176914
+printEvents succceded!
+printFriendList succeeded!
+printGroup succeeded!
+Recommendation Process Starts at 1400134739163
+IO function is done.
+getId() is done
+
+
+
+Participant: 343420563
+~~~~~~~~~~~~~~~~~~~~~~~SET UP~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+created the UIDGraph
+UIDGraph is created
+ioHelp.fillNames() is done
+hybrid is created
+setIOHelp() is done
+setParticipantID() is done

@@ -1,0 +1,63 @@
+CAAD6YjYrzZAABAN3O4TDYQiEeH8z6XIVx4ltvZCS7Ub0YhJQlFhIb5Sf529oZCU6x32qG6AINYoGnbjtDK79n7dgn0yidfp7cckVWe2txsUEYkzZBFC3Xdi6WyFR5vMsm9njSc9CWHfSjNm5vkwV71YI3Bu1MS7BjzYwNMLsZBVirlv2NNILtZC9yxGpHLoa4ZD
+100004642241103
+true
+/afs/cs.unc.edu/home/bartel/fbfriendslist/data
+/afs/cs.unc.edu/home/bartel/fbfriendslist/data
+Hello Jake
+Friendship post:Jake Bartel and Will Wu are now friends.
+	Friendship start:Will Wu
+Friendship post:Jake Bartel and Ziyou Wu are now friends.
+	Friendship start:Ziyou Wu
+analyse feeds succeeded for 100004642241103
+2
+Friendship post:Ziyou Wu is now friends with Will Wu and Jake Bartel.
+	Friendship start:Will Wu
+analyse feeds succeeded for 100000741846725
+Friendship post:Will Wu is now friends with Yidi Wu and 14 other people.
+	Friendship start:Ziyou Wu
+analyse feeds succeeded for 100008343420563
+printEvents succceded!
+printFriendList succeeded!
+printGroup succeeded!
+Recommendation Process Starts at 1406152087404
+IO function is done.
+getId() is done
+
+
+Participant: 642241103
+~~~~~~~~~~~~~~~~~~~~~~~SET UP~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+created the UIDGraph
+UIDGraph is created
+ioHelp.fillNames() is done
+hybrid is created
+setIOHelp() is done
+setParticipantID() is done
+hybrid.findNetworksAndSubgroups() starts.
+
+----------------------------------------------
+Hybrid started!
+setSAndD(networkS, networkD) is done!
+findNetworks(cliques) is done!
+setSAndD(subgroupS, subgroupD) is done!
+findSubgroups(networks) is done!
+new HashSet<Set<V>>() is done!
+addAll(networks) is done!
+addAll(subgroups) is done!
+hybrid.findNetworksAndSubgroups() is done.
+
+----------------------------------------------
+printCliqueIDsToFile() is done
+Creating complete is done
+com.restfb.exception.FacebookGraphException: Received Facebook error response of type GraphMethodException: Unsupported post request. (code 100, subcode null)
+	at com.restfb.DefaultFacebookClient$DefaultGraphFacebookExceptionMapper.exceptionForTypeAndMessage(DefaultFacebookClient.java:971)
+	at com.restfb.DefaultFacebookClient.throwFacebookResponseStatusExceptionIfNecessary(DefaultFacebookClient.java:885)
+	at com.restfb.DefaultFacebookClient.makeRequestAndProcessResponse(DefaultFacebookClient.java:824)
+	at com.restfb.DefaultFacebookClient.makeRequest(DefaultFacebookClient.java:765)
+	at com.restfb.DefaultFacebookClient.publish(DefaultFacebookClient.java:357)
+	at com.restfb.DefaultFacebookClient.publish(DefaultFacebookClient.java:364)
+	at facebookDataCrawler.GraphReaderExample.recommendFriendList(GraphReaderExample.java:932)
+	at facebookDataCrawler.GraphReaderExample.run(GraphReaderExample.java:174)
+	at facebookDataCrawler.GraphReaderExample.<init>(GraphReaderExample.java:134)
+	at facebookDataCrawler.GraphReaderExample.main(GraphReaderExample.java:108)
+Exception in recommendFriendList()
+Recommendation process is done. Close printer (prin).

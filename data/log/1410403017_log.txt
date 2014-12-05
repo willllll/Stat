@@ -1,0 +1,36 @@
+Started!
+!!! fillNames, line:1: String index out of range: -1
+~~~~~~~~~~Find All Maximal Cliques~~~~~~~~~~
+running getAllMaximalCliques
+Graph is too large. Finding cliques on file rather than in memory.
+temp_cliques1
+//-------------------BKcliqueFind is created.
+found AllMaximalCliques (145354) in 32.99535 minutes
+this stage done in 32.99535 minutes !!!
+~~~~~~~~~Preprocess cliques~~~~~~~~~~~~
+cliques.size = 145354
+removing all cliques <= size 2
+cliques.size = 145344
+~~~~~~~~~~~~Find Networks~~~~~~~~~~~~~~~~~~
+pass 0 cliques.size: 145344
+pass 1 cliques.size: 3
+~~~~~~~~~~Find large group Members~~~~~~~~~~~~~~~~
+448 members of large groups
+~~~~~~~~~~~Find subgraph~~~~~~~~~~~~~~
+Vertices: 448
+Edges: 9845
+~~~~~~~~~~~~~Find subgroups~~~~~~~~~~~~~
+~~~~~~~~~~Find All Maximal Cliques~~~~~~~~~~
+running getAllMaximalCliques
+Graph is too large. Finding cliques on file rather than in memory.
+temp_cliques1
+//-------------------BKcliqueFind is created.
+found AllMaximalCliques (145342) in 43.3629 minutes
+this stage done in 43.3629 minutes !!!
+Finding first level merges...
+finshed in 76645ms
+pass 1 cliques.size: 46
+pass 2 cliques.size: 46
+pass 3 cliques.size: 7
+subgroups size: 7
+Results can be found in: /afs/cs.unc.edu/home/bartel/fbfriendslist/data/100002206457204_1410403017/output.txt

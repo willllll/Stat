@@ -1,0 +1,27 @@
+Started!
+!!! fillNames, line:1: String index out of range: -1
+~~~~~~~~~~Find All Maximal Cliques~~~~~~~~~~
+running getAllMaximalCliques
+Graph is too large. Finding cliques on file rather than in memory.
+temp_cliques1
+//-------------------BKcliqueFind is created.
+found AllMaximalCliques (219111) in 52.449184 minutes
+this stage done in 52.449184 minutes !!!
+~~~~~~~~~Preprocess cliques~~~~~~~~~~~~
+cliques.size = 219111
+removing all cliques <= size 2
+cliques.size = 219102
+~~~~~~~~~~~~Find Networks~~~~~~~~~~~~~~~~~~
+pass 0 cliques.size: 219102
+pass 1 cliques.size: 4
+pass 2 cliques.size: 1
+~~~~~~~~~~Find large group Members~~~~~~~~~~~~~~~~
+486 members of large groups
+~~~~~~~~~~~Find subgraph~~~~~~~~~~~~~~
+Vertices: 486
+Edges: 12441
+~~~~~~~~~~~~~Find subgroups~~~~~~~~~~~~~
+~~~~~~~~~~Find All Maximal Cliques~~~~~~~~~~
+running getAllMaximalCliques
+Graph is too large. Finding cliques on file rather than in memory.
+temp_cliques1

@@ -1,0 +1,99 @@
+Id:2525392447
+Name:Overheard at UNC
+Description:There are ridiculous interactions around UNC all the time, and we've all been fortunate enough to be within hearing distance of one at some point or another. Share the wealth, post them here. No ads, promotions, plugs, inappropriate or irrelevant posts; they will be removed and the poster will also be temporarily removed. If you feel you've been improperly removed, please contact the administrators via message and we will be glad to hear you out.
+Id:623775737694519
+Name:Team Emilio core team
+Description:null
+Id:561928320557559
+Name:COMP 523 Project
+Description:null
+Id:1378477445746822
+Name:Econ 423 AMS Balls to the Wall
+Description:null
+Id:550239728384241
+Name:Emilio's SBP Team
+Description:null
+Id:617444801656368
+Name:Carolina Cantonese Connection
+Description:Carolina Cantonese Connection, a student-run organization open to everyone, is dedicated to bringing together TarHeel students and scholars of Cantonese descent and those interested in Cantonese culture or language at UNC campus. 
+CCC will serve as a network and a cultural-learning community for the university by organizing social and educational events to appreciate the beauty of Cantonese culture and language as part of Chinese culture. CCC also aims to create ties with other on-campus cultural-learning organizations and provide opportunities to reach Cantonese community beyond UNC. Ultimately, we hope to promote diversity by adding another unique element to the TarHeel community.
+
+Id:528370340580024
+Name:Comms Group
+Description:This is the group for web design and graphic design for Emilio's SBP campaign.
+Id:2200069027
+Name:UNC ASA
+Description:UNC Asian Students Association
+
+We have moved to https://www.facebook.com/TARHEELSASA so Like us there!
+Check out our website >> asaatunc.com
+Follow us on Twitter! @UNC_ASA
+Id:375556849194708
+Name:Carpool/Rides
+Description:Welcome To UNC the rides page for anyone looking for a ride or have extra seats to fill on a drive.  Try to pass this page along to as many friends as possible  the bigger the group is the more useful it will be for everyone. 
+Id:381504955264326
+Name:UNC ????
+Description:null
+Id:521587894518871
+Name:HatCH UNC
+Description:UNC's hackerspace.
+Phone Number: 919-962-1727
+Id:346706895413037
+Name:Young Scholars International
+Description:null
+Id:271307069619687
+Name:Mathematical Decision Science
+Description:null
+Id:271241079626286
+Name:Economics
+Description:Post about whatever minimizes your opportunity cost. 
+Id:271144812969246
+Name:Computer Science
+Description:People should post interesting events/occurrences of Computer Science related things, relevant news articles, stories, discussions about classes and schedules, and anything else you'd like directed towards CS people.
+
+Update on posting policies (from Matthew Leming, 1-5-2014): We will now be deleting the following kinds of posts advertising for group projects:
+
+1. Projects in which interested persons are required to message the poster for further details.
+2. Unpaid projects proposed by *individuals* without any computer programming experience (if, say, a local charity wanted to advertise for a dev here, that has a little more clout to it than one student with an idea for an app). If, however, you're a programmer and just need more people on your project, that's A-OK.
+Id:340468576036869
+Name:UNC Business Minors
+Description:null
+Id:270109843072743
+Name:Campus Tips
+Description:Where is the best place to hang out on campus? The best food? Share tips with other students.
+Id:270109863072741
+Name:Events & Parties
+Description:Get the word out about your party, and find out what's happening this weekend.
+Id:270109879739406
+Name:Free & For Sale
+Description:Find fridges, futons, textbooks, and tons of other stuff.
+Id:270109856406075
+Name:Jobs & Internships
+Description:Find and list jobs available on campus and over the summer.
+Id:176202789164239
+Name:Fantastic Fourteen: Model Research Group!
+Description:null
+Id:171087029677921
+Name:???? owen's birthday
+Description:null
+Id:160849660675410
+Name:SNL Group March!
+Description:null
+Id:256742974365051
+Name:Class of 2015 Page created by First Year Focus Council
+Description:The First-Year Focus Council is a Sub-Committee on the Executive Branch of the UNC Student Government. We aim to serve first-years through social events, service projects, and other cool opportunities for first-years.
+
+If you are a first-year, JOIN OUR  FACEBOOK GROUP!
+Id:142615672494560
+Name:UNC CUSA Chinese Undergraduate Student Association
+Description:Chinese Undergraduate Student Association, a student-run organization open to everyone, is dedicated to bringing together students and scholars interested in Chinese culture or language at UNC. 
+
+CUSA serves as an educational, cultural-learning community for the university by organizing events (social, fundraising, educational) that celebrate the Chinese culture. 
+
+We also raise awareness of issues that impact the Chinese community (local and overseas) while fundraising for those causes.
+Id:195251552598
+Name:Carolina Textbook Trade
+Description:Write down what textbooks your trying to get rid of and what textbooks you need :)
+Id:265499553461389
+Name:Service and Leadership 2011-2012
+Description:The Service & Leadership Learning Community (S&L) is an initiative of the Department of Housing and Residential Education at UNC-Chapel Hill. Our primary partner is the APPLES Service- Learning Program. We strive to promote a vibrant community of socially conscious individuals focused on developing exemplary leadership skills through service-learning. Our mission is to enhance the residential and academic experience of students who select to be apart of our unique community and our spring semester course.

@@ -1,0 +1,15 @@
+Started.
+CAAD6YjYrzZAABAFvRaPUZBglAvWbgqZCMy6cp8R75a1w679P5bIJsQiK5054Xrp7t592JZCGjGZAKZBo6ZBB5h2I3upy6rZAZBHXIDqnD9STitvwg4DlGCBjxSifLe0owYnpKZAKpweQHK0D3ZCFukfxGZBTZBZCY4lueWA5sbmv9a1ra5veZB9RdLpQVdY
+100000741846725
+true
+Checking100000741846725_1389975378382
+Checking100000741846725_1399000000001
+Requests completed!
+Checking100000741846725_1390328495695
+Requests completed!
+Checking100000741846725_1399000000002
+Requests completed!
+Checking100000741846725_1390712309746
+/afs/cs.unc.edu/home/bartel/public_html/fbfriendslist/data
+/afs/cs.unc.edu/home/bartel/public_html/fbfriendslist/data
+Please wait for the ongoing request to complete!

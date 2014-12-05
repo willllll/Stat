@@ -4,15 +4,22 @@ import java.awt.GridLayout;
 
 import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
+import javax.swing.event.ChangeListener;
 
-public class TabPanel extends JPanel {
+import util.models.PropertyListenerRegistrar;
+
+public class TabPanel extends JPanel implements PropertyListenerRegistrar {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	JPanel panel0,panel1,panel2,panel3;
+	final JTabbedPane tabbedPane;
 	
 	public TabPanel() {
 		 super(new GridLayout(1, 1));
-		 
-		 JTabbedPane tabbedPane = new JTabbedPane();
+		 tabbedPane = new JTabbedPane();
 		 
 		 panel0=new JPanel();
 		 tabbedPane.addTab("Undirected Manual Creation", panel0);
@@ -23,8 +30,12 @@ public class TabPanel extends JPanel {
 		 tabbedPane.addTab("Directed Manual Creation", panel2);
 //		 panel3=new JPanel();
 //		 tabbedPane.addTab("Stats-Step3", panel3);
-		 
+
 		 add(tabbedPane);
+	}
+	
+	public void addChangeListener(ChangeListener listen){
+		tabbedPane.addChangeListener(listen);
 	}
 	
 	public JPanel getPanel0(){

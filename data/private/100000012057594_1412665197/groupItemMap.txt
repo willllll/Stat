@@ -1,0 +1,63 @@
+Id:2655752138
+Name:NAAAP-Seattle
+Description:National Association of Asian American Professionals--Seattle Chapter
+	
+The National Association of Asian American Professionals is the proving ground for North American Asian Professionals, forging leaders of tomorrow through professional development, cultural awareness, and community service.
+
+Vision: "We make leaders."
+
+Mission:
+- Cultivate and empower leaders for professional excellence.
+- Connect accomplished professionals for mutual success.
+- Engage and participate with the community-at-large.
+- Inspire leaders to make a meaningful difference in government, education, business, and society.
+Id:315427225198109
+Name:????????
+Description:???????????????.????po???????~
+
+Id:587342091312143
+Name:Hot Rods and Sugar Cones - Washington
+Description:Visit the VisionWalk page at http://www.fightblindness.org/goto/WashingtonHotRods 
+
+I am walking in the Washington VisionWalk on October 5 to raise money for the Foundation Fighting Blindness and hope you will support me by joining my team, HOT RODS & SUGAR CONES.
+
+When I was 10 years old, I was diagnosed with a degenerative eye disease called retinitis pigmentosa. I hope that one day there will be a treatment that will delay my loss of sight or even restore it. However, research and clinical trials are not possible without continued funding and support. Be part of history and help make it possible for the blind to regain their sight.
+
+ If you are unable to walk with us, please consider making a donation to this cause. Every donation ? no matter how large or how small ? adds up quickly. Also, you can show your support and spread the word about degenerative eye disease by joining the HOT ROD & SUGAR CONE facebook group. 
+Id:214404972018502
+Name:Lync Me Maybe!
+Description:Microsoft Lync Interns 2012!
+Id:255878014526249
+Name:?????~????? (The Eaterizer, Deparment of Seattle)
+Description:Name is due to Hongwei... who hijacked my computer.
+Id:209348119134110
+Name:Microsoft Interns 2012
+Description:null
+Id:120808288022464
+Name:UNC?????
+Description:?????????????
+Id:180689128673077
+Name:CUSA Executive Board 11'-12'
+Description:null
+Id:132526336845405
+Name:UNC Asian-Interest Org. Presidents
+Description:null
+Id:265714250113105
+Name:??-??
+Description:null
+Id:210690308988504
+Name:Microsoft Interns 2011 :)
+Description:null
+Id:142615672494560
+Name:UNC CUSA Chinese Undergraduate Student Association
+Description:Chinese Undergraduate Student Association, a student-run organization open to everyone, is dedicated to bringing together students and scholars interested in Chinese culture or language at UNC. 
+
+CUSA serves as an educational, cultural-learning community for the university by organizing events (social, fundraising, educational) that celebrate the Chinese culture. 
+
+We also raise awareness of issues that impact the Chinese community (local and overseas) while fundraising for those causes.
+Id:159171004148507
+Name:MSR2011???????
+Description:???????????????????????????????research???
+Id:136553623069872
+Name:Microsoft Interns 2011
+Description:Welcome Microsoft Interns Class of 2011! This group is intended to help you network with other 2011 interns in your assigned Microsoft Internship location. We have posted some resources to help you get to know your Microsoft location - find housing, find good places to eat, etc.

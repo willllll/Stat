@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 import dataReader.DataReader;
 
 public class UserModel {
-	private final String BASE_PATH="/Users/ziyouw/Desktop/data/";
+	private final String BASE_PATH="data/";
 	private FriendListModel allFriends;
 	private HashMap<String,FriendListModel> step1, step2, recommendation, step3;
 	private String name,folderPath;
@@ -24,15 +24,43 @@ public class UserModel {
 		folderPath = DataReader.findFolder(name, BASE_PATH);
 		relationship = new HashMap<String, ArrayList<String>>();
 		recommendation = new HashMap<String,FriendListModel>();
-		step1 = new HashMap<String,FriendListModel>();
-		step2 = new HashMap<String,FriendListModel>();
-		step3 = new HashMap<String,FriendListModel>();
 		
 		step1Stat = new UserStatisticsModel(name);
 		step2Stat = new UserStatisticsModel(name);
 		step3Stat = new UserStatisticsModel(name);
 		
 		loadAllData();
+//		
+//		for(String flm: recommendation.keySet()){
+//			FriendListModel tmp =recommendation.get(flm);
+//			System.out.println(tmp.getListName());
+//			for(String s:tmp.getMemberList()){
+//				System.out.println(s);
+//			}
+//			System.out.println("");
+//		}
+//		
+//		for(String flm: step2Stat.getLists().keySet()){
+//			FriendListModel tmp =step2Stat.getLists().get(flm);
+//			System.out.println(tmp.getListName());
+//			for(String s:tmp.getMemberList()){
+//				System.out.println(s);
+//			}
+//			System.out.println("");
+//		}
+//		
+//		for(String flm: step2Stat.getDeletion().keySet()){
+//			ArrayList<String> tmp =step2Stat.getDeletion().get(flm);
+//			System.out.println(flm);
+//			for(String s:tmp){
+//				System.out.println(s);
+//			}
+//			System.out.println("");
+//		}
+	}
+	
+	public HashMap<String,FriendListModel> getRecommendation(){
+		return recommendation;
 	}
 	
 	public String getId(){
@@ -66,6 +94,18 @@ public class UserModel {
 		}
 	}
 	
+	public UserStatisticsModel getStatisticsModel(int step){
+		if(step==1){
+			return step1Stat;
+		}else if(step==2){
+			return step2Stat;
+		}else if(step==3){
+			return step3Stat;
+		}else{
+			return null;
+		}
+	}
+	
 	public FriendListModel getAllFriends(){
 		return allFriends;
 	}
@@ -74,7 +114,7 @@ public class UserModel {
 		if(step==1){
 			return step1;
 		}else if(step==2){
-			return recommendation;
+			return step2;
 		}else if(step==3){
 			return step3;
 		}else{
@@ -85,13 +125,15 @@ public class UserModel {
 	private void loadAllData() throws FileNotFoundException, ParseException{
 		loadRelationship();
 		loadRecommendationResult();
+		step2Stat.preLoad(recommendation);
 		loadLogFile(BASE_PATH+"appdata/step1/"+name+"_creator.txt",step1Stat);
-		//loadLogFile(BASE_PATH+"appdata/step2/"+name+"_editor.txt",step2Stat);
-		loadLogFile(BASE_PATH+"appdata/step3/"+name+"_creator2.txt",step3Stat);
-		//step2Stat.setExistingList(recommendation.keySet().size());
+		loadLogFile(BASE_PATH+"appdata/step2/"+name+"_editor.txt",step2Stat);
+		loadLogFile(BASE_PATH+"appdata/step3/"+name+"_creator2.txt",step3Stat);	
 		step1 =step1Stat.getLists();
+		step2 =step2Stat.getLists();
 		step3 =step3Stat.getLists();
 		loadAllFriends();
+		
 	}
 	
 	private void loadAllFriends() throws FileNotFoundException{

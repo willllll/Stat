@@ -1,0 +1,6 @@
+Id:100004642241103_124542800973931
+List_Type:acquaintances
+Id:105228686308539
+List_Type:family
+Id:105228679641873
+List_Type:close_friends
