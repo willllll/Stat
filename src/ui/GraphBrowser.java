@@ -26,6 +26,12 @@ public class GraphBrowser extends JPanel implements PropertyChangeListener, Chan
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	
+	public static final Color ADDED =Color.GREEN;
+	public static final Color DELETED =Color.RED;
+	public static final Color ORIGINAL =Color.ORANGE;
+	public static final Color ALLFRIENDS =Color.CYAN;
+	public static final Color MYSELF =Color.BLUE;
 	UserModel user;
 	Graph<Object, Integer> aGraph;
 	JungGraphManager<Object, Integer> jungGraphManager;
@@ -40,9 +46,10 @@ public class GraphBrowser extends JPanel implements PropertyChangeListener, Chan
 		this.user = user;
 		aGraph = buildGraph(user.getRelationship());
 		jungGraphManager = new AJungGraphManager<Object, Integer>(aGraph,this);
-		jungGraphManager.setVertexFillColor(user.getId(),Color.BLUE);
+		jungGraphManager.setVertexFillColor(user.getId(),MYSELF);
 		//OEShapeModel oeShapeModel = new AStringModel("List Graph Browser", 20, 20);
 		//jungGraphManager.getJungShapeModelDisplayer().getShapes().add(oeShapeModel);
+		resetGraph();
 		jungGraphManager.setLayoutType(LayoutType.Spring);
 		ObjectEditor.edit(jungGraphManager);
 	}
@@ -61,36 +68,36 @@ public class GraphBrowser extends JPanel implements PropertyChangeListener, Chan
 	}
 	
 	private void updateGraph(FriendListModel flm,FriendListModel creation, ArrayList<String> deletion){
-		updateGraph(flm);
+		updateGraph(flm,ORIGINAL);
 		//try{
 		
 		if(creation!=null){
 			for(String s: creation.getMemberList()){
-				jungGraphManager.setVertexFillColor(s,Color.YELLOW);
+				jungGraphManager.setVertexFillColor(s,ADDED);
 				for(String b:flm.getMemberList()){
 					if(!deletion.contains(b)){
 						if(user.getRelationship().get(s)!=null&&user.getRelationship().get(s).contains(b)){
 							Integer edge =jungGraphManager.getGraph().findEdge(s, b);
-							jungGraphManager.setEdgeDrawColor(edge, Color.YELLOW);
+							jungGraphManager.setEdgeDrawColor(edge, ADDED);
 							//System.out.println("here");
 						}
 						else if(user.getRelationship().get(b)!=null&&user.getRelationship().get(b).contains(s)){
 							Integer edge =jungGraphManager.getGraph().findEdge(s, b);
-							jungGraphManager.setEdgeDrawColor(edge, Color.YELLOW);
+							jungGraphManager.setEdgeDrawColor(edge, ADDED);
 						}
 					}
 				}
 			}
 			for(String s: deletion){
-				jungGraphManager.setVertexFillColor(s,Color.BLACK);
+				jungGraphManager.setVertexFillColor(s,DELETED);
 				for(String b: flm.getMemberList()){
 					if(user.getRelationship().get(s)!=null&&user.getRelationship().get(s).contains(b)){
 						Integer edge =jungGraphManager.getGraph().findEdge(s, b);
-						jungGraphManager.setEdgeDrawColor(edge, Color.BLACK);
+						jungGraphManager.setEdgeDrawColor(edge, DELETED);
 					}
 					else if(user.getRelationship().get(b)!=null&&user.getRelationship().get(b).contains(s)){
 						Integer edge =jungGraphManager.getGraph().findEdge(s, b);
-						jungGraphManager.setEdgeDrawColor(edge, Color.BLACK);
+						jungGraphManager.setEdgeDrawColor(edge, DELETED);
 					}
 				}
 			}
@@ -100,21 +107,21 @@ public class GraphBrowser extends JPanel implements PropertyChangeListener, Chan
 		//}
 	}
 	
-	private void updateGraph(FriendListModel flm){
+	private void updateGraph(FriendListModel flm, Color color){
 		resetGraph();
 		setEdge();
-		jungGraphManager.setVertexFillColor(user.getId(),Color.BLUE);
+		jungGraphManager.setVertexFillColor(user.getId(),MYSELF);
 		//jungGraphManager.setIntegerTransformer(arg0);
 		HashMap<String,ArrayList<String>> relationship = user.getRelationship();
 		for(String s: flm.getMemberList()){
 			
-			jungGraphManager.setVertexFillColor(s,Color.GREEN);
-			jungGraphManager.setVertexFillColor(user.getId(),Color.BLUE);
+			jungGraphManager.setVertexFillColor(s,color);
+			jungGraphManager.setVertexFillColor(user.getId(),MYSELF);
 			try{
 				for(String b: relationship.get(s)){
 					if(flm.getMemberList().contains(b)){
 						Integer edge = jungGraphManager.getGraph().findEdge(s, b);
-						jungGraphManager.setEdgeDrawColor(edge, Color.GREEN);
+						jungGraphManager.setEdgeDrawColor(edge, color);
 					}
 				}
 			}catch(NullPointerException e){
@@ -124,7 +131,7 @@ public class GraphBrowser extends JPanel implements PropertyChangeListener, Chan
 			if(relationship.get(user.getId()) != null&&relationship.get(user.getId()).contains(s)){
 				if(flm.getMemberList().contains(s)){
 					Integer edge = jungGraphManager.getGraph().findEdge(s, user.getId());
-					jungGraphManager.setEdgeDrawColor(edge, Color.GREEN);
+					jungGraphManager.setEdgeDrawColor(edge, color);
 				}
 			}
 		}
@@ -141,10 +148,10 @@ public class GraphBrowser extends JPanel implements PropertyChangeListener, Chan
 	
 	private void resetGraph(){
 		for(Object s:jungGraphManager.getGraph().getVertices()){
-			jungGraphManager.setVertexFillColor((String) s,Color.RED);
+			jungGraphManager.setVertexFillColor((String) s,ALLFRIENDS);
 			jungGraphManager.setVertexVisibile((String) s, true);
 		}
-		jungGraphManager.setVertexFillColor(user.getId(),Color.BLUE);
+		jungGraphManager.setVertexFillColor(user.getId(),MYSELF);
 		for(Integer s:jungGraphManager.getGraph().getEdges()){
 			jungGraphManager.setEdgeDrawColor(s, Color.BLACK);
 		}
@@ -167,7 +174,7 @@ public class GraphBrowser extends JPanel implements PropertyChangeListener, Chan
 				if(newValue.equals("All Friends")){
 					resetGraph();
 				}else{
-					updateGraph(user.getLists(currentStep+1).get(newValue));
+						updateGraph(user.getLists(currentStep+1).get(newValue), ADDED);
 				}
 			}
 		}
@@ -185,7 +192,12 @@ public class GraphBrowser extends JPanel implements PropertyChangeListener, Chan
 		if(currentSelected[currentStep].equals("All Friends")){
 			resetGraph();
 		}else{
-			updateGraph(user.getLists(currentStep+1).get(currentSelected[currentStep]));
+			if(currentStep+1==2){
+				updateGraph(user.getRecommendation().get(currentSelected[currentStep]),user.getLists(currentStep+1).get(currentSelected[currentStep]), user.getStatisticsModel(currentStep+1).getDeletion().get(currentSelected[currentStep]));
+			}else{
+				updateGraph(user.getLists(currentStep+1).get(currentSelected[currentStep]),ADDED);
+			}
+			
 		}
 	}
 	
