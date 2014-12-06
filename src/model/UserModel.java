@@ -208,7 +208,7 @@ public class UserModel {
 			line = scan.nextLine();
 			if(line.equals("")){
 				continue;
-			}else if(line.charAt(0)=='C'){
+			}else if(line.charAt(0)=='C'||line.charAt(0)=='G'){
 				FriendListModel list =new FriendListModel(line);
 				String name = line;
 				line = scan.nextLine();

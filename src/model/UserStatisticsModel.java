@@ -117,6 +117,7 @@ public class UserStatisticsModel {
 	}
 	
 	public void delete(String name, String member){
+		System.out.println(name);
 		name = name.substring(0,name.length()-1);
 		if(name.matches("Clique:_[0-9]{1,2}")){
 			String[] split = name.split("_");
