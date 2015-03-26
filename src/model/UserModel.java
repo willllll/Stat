@@ -24,10 +24,10 @@ public class UserModel {
 		folderPath = DataReader.findFolder(name, BASE_PATH);
 		relationship = new HashMap<String, ArrayList<String>>();
 		recommendation = new HashMap<String,FriendListModel>();
-		
-		step1Stat = new UserStatisticsModel(name);
-		step2Stat = new UserStatisticsModel(name);
-		step3Stat = new UserStatisticsModel(name);
+		//comment out for gathering json 3/26
+//		step1Stat = new UserStatisticsModel(name);
+//		step2Stat = new UserStatisticsModel(name);
+//		step3Stat = new UserStatisticsModel(name);
 		
 		loadAllData();
 //		
@@ -125,13 +125,14 @@ public class UserModel {
 	private void loadAllData() throws FileNotFoundException, ParseException{
 		loadRelationship();
 		loadRecommendationResult();
-		step2Stat.preLoad(recommendation);
-		loadLogFile(BASE_PATH+"appdata/step1/"+name+"_creator.txt",step1Stat);
-		loadLogFile(BASE_PATH+"appdata/step2/"+name+"_editor.txt",step2Stat);
-		loadLogFile(BASE_PATH+"appdata/step3/"+name+"_creator2.txt",step3Stat);	
-		step1 =step1Stat.getLists();
-		step2 =step2Stat.getLists();
-		step3 =step3Stat.getLists();
+		//comment out for gathering json 3/26
+//		step2Stat.preLoad(recommendation);
+//		loadLogFile(BASE_PATH+"appdata/step1/"+name+"_creator.txt",step1Stat);
+//		loadLogFile(BASE_PATH+"appdata/step2/"+name+"_editor.txt",step2Stat);
+//		loadLogFile(BASE_PATH+"appdata/step3/"+name+"_creator2.txt",step3Stat);	
+//		step1 =step1Stat.getLists();
+//		step2 =step2Stat.getLists();
+//		step3 =step3Stat.getLists();
 		loadAllFriends();
 		
 	}
@@ -139,6 +140,7 @@ public class UserModel {
 	private void loadAllFriends() throws FileNotFoundException{
 		String path = folderPath+"/friendinfo.txt";
 		Scanner scan =new Scanner(new File(path));
+		allFriends.addMember(scan.nextLine());
 		while(scan.hasNextLine()){
 			String line = scan.nextLine();
 			if(line.isEmpty()){
